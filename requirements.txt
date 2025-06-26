@@ -1,4 +1,3 @@
-# Essential libraries
 streamlit>=1.27
 matplotlib
 numpy
@@ -10,10 +9,12 @@ netCDF4
 peewee
 requests
 h5py
-# Geo and projection dependencies
+
+# Working geospatial stack
+shapely==1.8.5.post1
 fiona==1.9.5
-pyproj==3.6.0
-shapely==2.0.2
-geopandas==0.14.3
-# CLIMADA latest stable version
+pyproj==3.4.1
+geopandas==0.13.2
+
+# CLIMADA latest (compatible with shapely<2)
 git+https://github.com/CLIMADA-project/climada_python.git
