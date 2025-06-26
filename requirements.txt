@@ -1,0 +1,14 @@
+streamlit>=1.27
+matplotlib
+numpy
+pandas
+plotly
+scipy
+xarray
+netCDF4
+shapely
+geopandas
+peewee
+requests
+h5py
+git+https://github.com/CLIMADA-project/climada_python.git
