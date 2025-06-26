@@ -1,5 +1,15 @@
-streamlit
+streamlit>=1.27
 matplotlib
-pandas
 numpy
-climada-python
+pandas
+plotly
+scipy
+xarray
+netCDF4
+shapely
+geopandas
+peewee
+requests
+h5py
+# Use the official CLIMADA repository (latest stable)
+git+https://github.com/CLIMADA-project/climada_python.git
