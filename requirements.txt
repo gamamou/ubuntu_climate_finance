@@ -6,9 +6,11 @@ plotly
 scipy
 xarray
 netCDF4
-shapely
+shapely==2.0.2
 geopandas
 peewee
 requests
 h5py
+fiona==1.9.5
+pyproj==3.6.0
 git+https://github.com/CLIMADA-project/climada_python.git
