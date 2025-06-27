@@ -9,6 +9,7 @@ netCDF4
 peewee
 requests
 h5py
+cython
 
 # Working geospatial stack
 shapely==1.8.5.post1
