@@ -428,8 +428,6 @@ with tab3:
             st.error(f"❌ Failed to generate waterfall plot: {e}")
     else:
         st.info("ℹ️ Run full analysis to enable chart.")
-import streamlit as st
-import os
 
 st.subheader("Installed Python Packages")
 packages = os.popen("pip list").read()
