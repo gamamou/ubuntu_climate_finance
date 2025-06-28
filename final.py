@@ -1,5 +1,6 @@
 import streamlit as st
 import numpy as np
+import os
 import pandas as pd
 import matplotlib.pyplot as plt
 from climada.util.api_client import Client
@@ -427,3 +428,9 @@ with tab3:
             st.error(f"❌ Failed to generate waterfall plot: {e}")
     else:
         st.info("ℹ️ Run full analysis to enable chart.")
+import streamlit as st
+import os
+
+st.subheader("Installed Python Packages")
+packages = os.popen("pip list").read()
+st.code(packages)
