@@ -12,7 +12,7 @@ h5py
 cython
 
 # Working geospatial stack
-shapely==1.8.5.post1
+shapely==1.8.4
 fiona==1.9.5
 pyproj==3.4.1
 geopandas==0.13.2
